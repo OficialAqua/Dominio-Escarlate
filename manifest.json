@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "2026.07.25.2054",
+    "version":  "2026.07.25.2106",
     "files":  [
                   {
                       "path":  ".doorstop_version",
@@ -1173,6 +1173,18 @@
                   }
               ],
     "recommendedPlugins":  [
-
+                               {
+                                   "id":  "Raphael",
+                                   "name":  "Raphael",
+                                   "version":  "0.65.5",
+                                   "description":  "Uma interface de utilizador para o V Rising do lado do cliente que transforma os comandos de chat dos mods populares do lado do servidor em botÃµes, formulÃ¡rios e sobreposiÃ§Ãµes no ecrÃ£. Os separadores de cada mod aparecem apenas quando o mod correspondente Ã© detetado no seu servidor â€” portanto, funciona independentemente de o seu servidor executar um, vÃ¡rios ou nenhum mod.",
+                                   "files":  [
+                                                 {
+                                                     "path":  "BepInEx/plugins/MeuPlugin.dll",
+                                                     "url":  "files/recommended/Raphael/0-Raphael.dll",
+                                                     "sha256":  "5b44229f66415a74657c21aefd16b67d318da276a1e7551740b1bedb1589c6ec"
+                                                 }
+                                             ]
+                               }
                            ]
 }
