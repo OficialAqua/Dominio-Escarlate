@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "2026.07.26.raphael-fix",
+    "version":  "2026.07.26.0132",
     "files":  [
                   {
                       "path":  ".doorstop_version",
@@ -1183,6 +1183,19 @@
                                                      "path":  "BepInEx/plugins/Raphael/Raphael.dll",
                                                      "url":  "files/recommended/Raphael/0-Raphael.dll",
                                                      "sha256":  "5b44229f66415a74657c21aefd16b67d318da276a1e7551740b1bedb1589c6ec"
+                                                 }
+                                             ]
+                               },
+                               {
+                                   "id":  "VampireCommandFramework",
+                                   "name":  "VampireCommandFramework",
+                                   "version":  "0.11.0",
+                                   "description":  "Uma estrutura abrangente para os programadores de mods de V Rising criarem comandos facilmente com caracterÃ­sticas avanÃ§adas, tais como sobrecarga de comandos, histÃ³rico, correspondÃªncia inteligente e execuÃ§Ã£o especÃ­fica de plugins.",
+                                   "files":  [
+                                                 {
+                                                     "path":  "BepInEx/plugins/VampireCommandFramework/VampireCommandFramework.dll",
+                                                     "url":  "files/recommended/VampireCommandFramework/0-VampireCommandFramework.dll",
+                                                     "sha256":  "8eea49748bc4cda124bd04af76f637bdbb057f80939a1948337fc5fa4454c360"
                                                  }
                                              ]
                                }
