@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.26.0206",
+  "version": "2026.07.26.0208",
   "files": [
     {
       "path": ".doorstop_version",
@@ -1196,32 +1196,6 @@
           "path": "BepInEx/plugins/VampireCommandFramework/VampireCommandFramework.dll",
           "url": "files/recommended/VampireCommandFramework/0-VampireCommandFramework.dll",
           "sha256": "8eea49748bc4cda124bd04af76f637bdbb057f80939a1948337fc5fa4454c360"
-        }
-      ]
-    },
-    {
-      "Id": "KinCreator",
-      "Name": "KinCreator",
-      "Version": "1.0.1",
-      "Description": "O KinCreator permite-lhe guardar a apar\u00EAncia do seu personagem como predefini\u00E7\u00F5es e carreg\u00E1-las sempre que criar um novo personagem ou utilizar um espelho do castelo.\r\n\r\nNunca perca o look que adora.",
-      "Files": [
-        {
-          "Path": "BepInEx/plugins/KinCreator/KinCreator.dll",
-          "Url": "files/recommended/KinCreator/0-KinCreator.dll",
-          "Sha256": "5376b47b986fdd5c49a3b0edf4492631ee2d25ea9ee15ad4658f82025f54be55"
-        }
-      ]
-    },
-    {
-      "Id": "KinCreator",
-      "Name": "KinCreator",
-      "Version": "1.0.1",
-      "Description": "O KinCreator permite-lhe guardar a apar\u00EAncia do seu personagem como predefini\u00E7\u00F5es e carreg\u00E1-las sempre que criar um novo personagem ou utilizar um espelho do castelo.\r\n\r\nNunca perca o look que adora.",
-      "Files": [
-        {
-          "Path": "BepInEx/plugins/KinCreator/KinCreator.dll",
-          "Url": "files/recommended/KinCreator/0-KinCreator.dll",
-          "Sha256": "5376b47b986fdd5c49a3b0edf4492631ee2d25ea9ee15ad4658f82025f54be55"
         }
       ]
     }
