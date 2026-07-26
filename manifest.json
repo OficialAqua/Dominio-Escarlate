@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.26.0208",
+  "version": "2026.07.26.0210",
   "files": [
     {
       "path": ".doorstop_version",
@@ -1209,6 +1209,19 @@
           "path": "BepInEx/plugins/KinCreator/KinCreator.dll",
           "url": "files/recommended/KinCreator/0-KinCreator.dll",
           "sha256": "5376b47b986fdd5c49a3b0edf4492631ee2d25ea9ee15ad4658f82025f54be55"
+        }
+      ]
+    },
+    {
+      "id": "BloodCraftEZLife-Plugins",
+      "name": "BloodCraftEZLife.Plugins",
+      "version": "0.8.2",
+      "description": "Teletransporte autom\u00E1tico (Aceite todos os pedidos sem ter de digitar nada)\r\nRetire itens do invent\u00E1rio a partir de um painel usando a log\u00EDstica Kindred\r\nLista de teletransporte: crie uma lista com todos os jogadores do servidor e clique para se teletransportar at\u00E9 eles\r\nTeclas de atalho e defini\u00E7\u00F5es adicionadas ao menu de contexto.\r\nTeclas de atalho criadas para enviar comandos de chat, por exemplo, F5 para enviar \u0022. fam ub\u0022",
+      "files": [
+        {
+          "path": "BepInEx/plugins/BloodCraftEZLife-Plugins/BloodCraftEZLife.Plugins.dll",
+          "url": "files/recommended/BloodCraftEZLife-Plugins/0-BloodCraftEZLife.Plugins.dll",
+          "sha256": "212912eecc6a08bdcfa1b60fc2178b552baacec9fa2e3c46eb2974a892874832"
         }
       ]
     }
