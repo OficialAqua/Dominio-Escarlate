@@ -1,4 +1,21 @@
 {
   "version": 1,
-  "mods": []
+  "mods": [
+    {
+      "id": "skytech6-CrimsonFOV",
+      "name": "CrimsonFOV",
+      "version": "1.0.0",
+      "author": "skytech6",
+      "category": "Cliente / Câmara",
+      "description": "Mod client-side que permite alterar o campo de visão da câmara no V Rising.",
+      "siteUrl": "https://thunderstore.io/c/v-rising/p/skytech6/CrimsonFOV/",
+      "files": [
+        {
+          "path": "BepInEx/plugins/CrimsonFOV.dll",
+          "url": "https://gcdn.thunderstore.io/live/blob-storage/sha256/99571501d14a1c98abc96e0bb5058a995c10a1fbc80ed53fa5ee875ca3ddb60b.sh_HSc6iWg.blob",
+          "sha256": "99571501d14a1c98abc96e0bb5058a995c10a1fbc80ed53fa5ee875ca3ddb60b"
+        }
+      ]
+    }
+  ]
 }
