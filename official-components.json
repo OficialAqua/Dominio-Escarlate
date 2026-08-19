@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "components": [
+    {
+      "id": "vesperclient",
+      "name": "VesperClient",
+      "version": "0.2.6",
+      "path": "BepInEx/plugins/VesperClient.dll",
+      "published": false,
+      "required": true,
+      "url": "",
+      "sha256": ""
+    }
+  ]
+}
