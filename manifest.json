@@ -1204,19 +1204,6 @@
       ]
     },
     {
-      "id": "VampireCommandFramework",
-      "name": "VampireCommandFramework",
-      "version": "0.11.0",
-      "description": "Uma estrutura abrangente para os programadores de mods de V Rising criarem comandos facilmente com caracterÃ­sticas avanÃ§adas, tais como sobrecarga de comandos, histÃ³rico, correspondÃªncia inteligente e execuÃ§Ã£o especÃ­fica de plugins.",
-      "files": [
-        {
-          "path": "BepInEx/plugins/VampireCommandFramework/VampireCommandFramework.dll",
-          "url": "files/recommended/VampireCommandFramework/0-VampireCommandFramework.dll",
-          "sha256": "8eea49748bc4cda124bd04af76f637bdbb057f80939a1948337fc5fa4454c360"
-        }
-      ]
-    },
-    {
       "id": "KinCreator",
       "name": "KinCreator",
       "version": "1.0.1",
