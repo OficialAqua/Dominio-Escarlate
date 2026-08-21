@@ -1,0 +1,47 @@
+name: Sync official Eclipse package
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/sync-eclipse.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      ECLIPSE_VERSION: "1.3.14"
+      ECLIPSE_SHA256: "506e26f08c2fe4529dbd1743547e94bb63f77c409f486e910e28a343071260a6"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download and verify official Eclipse package
+        shell: bash
+        run: |
+          set -euo pipefail
+          package_url="https://gcdn.thunderstore.io/live/repository/packages/zfolmt-Eclipse-${ECLIPSE_VERSION}.zip"
+          curl --fail --location --silent --show-error "$package_url" --output /tmp/eclipse.zip
+          unzip -q /tmp/eclipse.zip Eclipse.dll -d /tmp/eclipse
+          actual_sha256="$(sha256sum /tmp/eclipse/Eclipse.dll | awk '{print $1}')"
+          test "$actual_sha256" = "$ECLIPSE_SHA256"
+          mkdir -p files/recommended/Eclipse
+          cp /tmp/eclipse/Eclipse.dll files/recommended/Eclipse/0-Eclipse.dll
+          rm -f files/BepInEx/plugins/Eclipse/Eclipse.dll
+
+      - name: Commit synchronized binary
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add files/recommended/Eclipse/0-Eclipse.dll
+          git add -u files/BepInEx/plugins/Eclipse/Eclipse.dll
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Add Eclipse 1.3.14 recommended plugin binary"
+          git push
