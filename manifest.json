@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.26.0210",
+  "version": "2026.08.21.2148",
   "files": [
     {
       "path": ".doorstop_version",
@@ -230,11 +230,6 @@
       "path": "BepInEx/core/WasmDisassembler.dll",
       "url": "files/BepInEx/core/WasmDisassembler.dll",
       "sha256": "1d693b0e28dc8af07c2c25970ba49090565fc351a01cb1a861240fcbc2a8bf29"
-    },
-    {
-      "path": "BepInEx/plugins/Eclipse/Eclipse.dll",
-      "url": "files/BepInEx/plugins/Eclipse/Eclipse.dll",
-      "sha256": "a14ec031c176c0c2a3167cdc48026009c081ca71f7ccfdc6f99e928bd116d7c3"
     },
     {
       "path": "dotnet/.version",
@@ -1177,7 +1172,7 @@
       "id": "Raphael",
       "name": "Raphael",
       "version": "0.65.5",
-      "description": "Uma interface de utilizador para o V Rising do lado do cliente que transforma os comandos de chat dos mods populares do lado do servidor em bot\u00C3\u00B5es, formul\u00C3\u00A1rios e sobreposi\u00C3\u00A7\u00C3\u00B5es no ecr\u00C3\u00A3. Os separadores de cada mod aparecem apenas quando o mod correspondente \u00C3\u00A9 detetado no servidor.",
+      "description": "Uma interface de utilizador para o V Rising do lado do cliente que transforma os comandos de chat dos mods populares do lado do servidor em botÃµes, formulÃ¡rios e sobreposiÃ§Ãµes no ecrÃ£. Os separadores de cada mod aparecem apenas quando o mod correspondente Ã© detetado no servidor.",
       "files": [
         {
           "path": "BepInEx/plugins/Raphael/Raphael.dll",
@@ -1190,7 +1185,7 @@
       "id": "VampireCommandFramework",
       "name": "VampireCommandFramework",
       "version": "0.11.0",
-      "description": "Uma estrutura abrangente para os programadores de mods de V Rising criarem comandos facilmente com caracter\u00C3\u00ADsticas avan\u00C3\u00A7adas, tais como sobrecarga de comandos, hist\u00C3\u00B3rico, correspond\u00C3\u00AAncia inteligente e execu\u00C3\u00A7\u00C3\u00A3o espec\u00C3\u00ADfica de plugins.",
+      "description": "Uma estrutura abrangente para os programadores de mods de V Rising criarem comandos facilmente com caracterÃ­sticas avanÃ§adas, tais como sobrecarga de comandos, histÃ³rico, correspondÃªncia inteligente e execuÃ§Ã£o especÃ­fica de plugins.",
       "files": [
         {
           "path": "BepInEx/plugins/VampireCommandFramework/VampireCommandFramework.dll",
@@ -1203,7 +1198,7 @@
       "id": "KinCreator",
       "name": "KinCreator",
       "version": "1.0.1",
-      "description": "O KinCreator permite-lhe guardar a apar\u00EAncia do seu personagem como predefini\u00E7\u00F5es e carreg\u00E1-las sempre que criar um novo personagem ou utilizar um espelho do castelo.\r\n\r\nNunca perca o look que adora.",
+      "description": "O KinCreator permite-lhe guardar a aparência do seu personagem como predefinições e carregá-las sempre que criar um novo personagem ou utilizar um espelho do castelo.\r\n\r\nNunca perca o look que adora.",
       "files": [
         {
           "path": "BepInEx/plugins/KinCreator/KinCreator.dll",
@@ -1216,12 +1211,25 @@
       "id": "BloodCraftEZLife-Plugins",
       "name": "BloodCraftEZLife.Plugins",
       "version": "0.8.2",
-      "description": "Teletransporte autom\u00E1tico (Aceite todos os pedidos sem ter de digitar nada)\r\nRetire itens do invent\u00E1rio a partir de um painel usando a log\u00EDstica Kindred\r\nLista de teletransporte: crie uma lista com todos os jogadores do servidor e clique para se teletransportar at\u00E9 eles\r\nTeclas de atalho e defini\u00E7\u00F5es adicionadas ao menu de contexto.\r\nTeclas de atalho criadas para enviar comandos de chat, por exemplo, F5 para enviar \u0022. fam ub\u0022",
+      "description": "Teletransporte automático (Aceite todos os pedidos sem ter de digitar nada)\r\nRetire itens do inventário a partir de um painel usando a logística Kindred\r\nLista de teletransporte: crie uma lista com todos os jogadores do servidor e clique para se teletransportar até eles\r\nTeclas de atalho e definições adicionadas ao menu de contexto.\r\nTeclas de atalho criadas para enviar comandos de chat, por exemplo, F5 para enviar \". fam ub\"",
       "files": [
         {
           "path": "BepInEx/plugins/BloodCraftEZLife-Plugins/BloodCraftEZLife.Plugins.dll",
           "url": "files/recommended/BloodCraftEZLife-Plugins/0-BloodCraftEZLife.Plugins.dll",
           "sha256": "212912eecc6a08bdcfa1b60fc2178b552baacec9fa2e3c46eb2974a892874832"
+        }
+      ]
+    },
+    {
+      "id": "Eclipse",
+      "name": "Eclipse",
+      "version": "1.3.14",
+      "description": "Interface client-side para o Bloodcraft. Mostra progressão, legados, perícias, familiares, profissões, missões e outras informações do personagem diretamente no ecrã. Requer o BepInEx, já instalado e gerido pelo VesperLauncher.",
+      "files": [
+        {
+          "path": "BepInEx/plugins/Eclipse/Eclipse.dll",
+          "url": "files/recommended/Eclipse/0-Eclipse.dll",
+          "sha256": "506e26f08c2fe4529dbd1743547e94bb63f77c409f486e910e28a343071260a6"
         }
       ]
     }
