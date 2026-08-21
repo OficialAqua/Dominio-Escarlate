@@ -1167,6 +1167,28 @@
       "sha256": "b3e6df643dd07a3bdde2b6419da7e7ee49c2c01bdce7c758c9abc20b8b8a6296"
     }
   ],
+  "officialComponents": [
+    {
+      "id": "vesperclient",
+      "name": "VesperClient",
+      "version": "0.3.0",
+      "description": "Cliente oficial do Domínio Escarlate. Integra funcionalidades de interface e qualidade de vida do projeto Vesper diretamente no V Rising.",
+      "channel": "stable",
+      "requiresRestart": true,
+      "files": [
+        {
+          "path": "BepInEx/plugins/VesperClient/VesperClient.dll",
+          "url": "files/official/VesperClient/0.3.0/VesperClient.dll",
+          "sha256": "f3fdb208de7ba601d102969022ec6b8573a924715864aaa4b6b8cfb5df5a78d8"
+        },
+        {
+          "path": "BepInEx/plugins/VesperClient/manifest.json",
+          "url": "files/official/VesperClient/0.3.0/manifest.json",
+          "sha256": "9dd9aa201f559b15789c5fdb9c7d306ca2e176d07b2e2a00f310f171d2193407"
+        }
+      ]
+    }
+  ],
   "recommendedPlugins": [
     {
       "id": "Raphael",

@@ -1,0 +1,9 @@
+{
+  "id": "vesperclient",
+  "name": "VesperClient",
+  "version": "0.3.0",
+  "channel": "stable",
+  "entryFile": "VesperClient.dll",
+  "installDirectory": "BepInEx/plugins/VesperClient",
+  "requiresRestart": true
+}
