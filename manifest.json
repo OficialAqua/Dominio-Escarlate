@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.03.0213",
+  "version": "2026.09.18.0105",
   "files": [
     {
       "path": ".doorstop_version",
@@ -1171,20 +1171,20 @@
     {
       "id": "vesperclient",
       "name": "VesperClient",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "description": "Cliente oficial do Domínio Escarlate. Integra funcionalidades de interface e qualidade de vida do projeto Vesper diretamente no V Rising.",
       "channel": "stable",
       "requiresRestart": true,
       "files": [
         {
           "path": "BepInEx/plugins/VesperClient/VesperClient.dll",
-          "url": "files/official/VesperClient/0.3.0/VesperClient.dll",
-          "sha256": "f3fdb208de7ba601d102969022ec6b8573a924715864aaa4b6b8cfb5df5a78d8"
+          "url": "files/official/VesperClient/0.4.0/VesperClient.dll",
+          "sha256": "91af8fba58926415af9a8bd9255afa9ad837fdcd44dd991eddc655a81d4323ea"
         },
         {
           "path": "BepInEx/plugins/VesperClient/manifest.json",
-          "url": "files/official/VesperClient/0.3.0/manifest.json",
-          "sha256": "9dd9aa201f559b15789c5fdb9c7d306ca2e176d07b2e2a00f310f171d2193407"
+          "url": "files/official/VesperClient/0.4.0/manifest.json",
+          "sha256": "d43c85b66859207dec64ce6c703fd7e9b6c5e816258004292ea5d86a0b2382b3"
         }
       ]
     }
