@@ -20,6 +20,26 @@
           "sha256": "99571501d14a1c98abc96e0bb5058a995c10a1fbc80ed53fa5ee875ca3ddb60b"
         }
       ]
+    },
+    {
+      "id": "zfolmt-RetroCamera",
+      "name": "RetroCamera",
+      "version": "1.5.4",
+      "author": "zfolmt",
+      "category": "Cliente / Câmara",
+      "description": "Melhorias de câmera para o V Rising, com modos em primeira e terceira pessoa, ajuste de FOV, câmera sobre o ombro, modo de ação, mira, ocultação da HUD e roda de comandos configurável.",
+      "siteUrl": "https://thunderstore.io/c/v-rising/p/zfolmt/RetroCamera/",
+      "side": "Client-side",
+      "requiresRestart": true,
+      "compatibilityNotes": "Requer apenas o BepInEx, já instalado e gerenciado pelo VesperLauncher. Atualmente não é considerado compatível com controles ou gamepads.",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "BepInEx/plugins/RetroCamera/RetroCamera.dll",
+          "url": "files/recommended/RetroCamera/0-RetroCamera.dll",
+          "sha256": "2923c1f42e6e67370b45fb78a3cbea97087ab28602e7a840fb505097129890af"
+        }
+      ]
     }
   ]
 }

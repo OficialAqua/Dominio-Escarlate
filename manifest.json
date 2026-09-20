@@ -1241,19 +1241,6 @@
           "sha256": "506e26f08c2fe4529dbd1743547e94bb63f77c409f486e910e28a343071260a6"
         }
       ]
-    },
-    {
-      "id": "RetroCamera",
-      "name": "RetroCamera",
-      "version": "1.5.4",
-      "description": "Melhorias de câmera para o V Rising, com modos em primeira e terceira pessoa, ajuste de FOV, câmera sobre o ombro, modo de ação, mira, ocultação da HUD e roda de comandos configurável. Plugin client-side. Requer apenas o BepInEx, já instalado e gerenciado pelo VesperLauncher. Atualmente não é considerado compatível com controles ou gamepads.",
-      "files": [
-        {
-          "path": "BepInEx/plugins/RetroCamera/RetroCamera.dll",
-          "url": "files/recommended/RetroCamera/0-RetroCamera.dll",
-          "sha256": "2923c1f42e6e67370b45fb78a3cbea97087ab28602e7a840fb505097129890af"
-        }
-      ]
     }
   ]
 }
