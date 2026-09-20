@@ -1,8 +1,8 @@
 {
-  "version": "1.2.1",
+  "version": "1.2.2",
   "channel": "stable",
-  "url": "files/launcher/1.2.1/VesperLauncher-Windows-x64.zip",
-  "sha256": "4199c0253ba7c2e2eb189cfb0da20cb448e5433322e4614fb4e6225d2c8daf24",
+  "url": "files/launcher/1.2.2/VesperLauncher-Windows-x64.zip",
+  "sha256": "86df5f00807984add749e7804029b1a0a7f2a3aae9e6853ac30603e33ab51ed1",
   "mandatory": false,
-  "notes": "Adiciona o atalho para a pasta de plugins e transfere o RetroCamera para a Biblioteca de Plugins."
+  "notes": "Corrige o botão Ver plugins no site para abrir a página do V Rising no Thunderstore."
 }
